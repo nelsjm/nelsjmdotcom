@@ -1,0 +1,56 @@
+.section {
+    padding-right: .75em;
+}
+
+.skills-section {
+    display: flex;
+    padding-top: .25em;
+    padding-bottom: .5em;
+}
+
+.skills-section > div:first-child {
+    font-weight: bold;
+}
+
+.skills-section > div:last-child {
+    margin-left: .25em;
+}
+
+a {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    display:flex;
+}
+
+h1 {
+    font-size: 1.5em;
+    padding: 0 0 .25em;
+    margin:0;
+}
+
+h2 {
+    font-size: 1.25em;
+    margin:0;
+    padding-top: .5em;
+}
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 14pt;
+    padding-left: .75em;
+    padding-right: .75em;
+}
